@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpDockerContainerSettings">
+    <list>
+      <map>
+        <entry key="66c3cf8d-cba5-44aa-97bb-7a1f7dc9c753">
+          <value>
+            <DockerContainerSettings>
+              <option name="portBindings">
+                <list>
+                  <DockerPortBindingImpl>
+                    <option name="containerPort" value="9001" />
+                    <option name="hostIp" value="0.0.0.0" />
+                  </DockerPortBindingImpl>
+                </list>
+              </option>
+              <option name="runCliOptions" value="" />
+              <option name="version" value="1" />
+              <option name="volumeBindings">
+                <list>
+                  <DockerVolumeBindingImpl>
+                    <option name="containerPath" value="/app" />
+                    <option name="hostPath" value="$PROJECT_DIR$" />
+                  </DockerVolumeBindingImpl>
+                </list>
+              </option>
+            </DockerContainerSettings>
+          </value>
+        </entry>
+      </map>
+    </list>
+  </component>
+</project>

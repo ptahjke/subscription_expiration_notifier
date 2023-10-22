@@ -1,0 +1,17 @@
+{
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "files": ["src/db.php", "src/notification_queue_context.php", "src/mailing.php", "src/data_access.php"]
+    }
+}

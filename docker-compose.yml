@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  php:
+    container_name: subscription_php
+    build:
+      context: ./docker/php
+    depends_on:
+      - db
+    env_file:
+      - .env
+    environment:
+      XDEBUG_ENABLED: 1
+      XDEBUG_REMOTE_AUTOSTART: 1
+      XDEBUG_MAXNESTING_LEVEL: 1000
+      XDEBUG_REMOTE_CONNECT_BACK: 1
+      XDEBUG_CLIENT_HOST: host.docker.internal
+      PHP_IDE_CONFIG: serverName=app
+    ports:
+      - '9001:9000'
+    volumes:
+      - ./:/app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  composer:
+    restart: 'no'
+    image: composer/composer
+    command: install
+    volumes:
+      - .:/app
+
+  db:
+    image: postgres:12
+    container_name: subscription_db
+    command: postgres -c 'max_connections=125'
+    restart: always
+    user: postgres
+    volumes:
+      - ./init/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db_data:/var/lib/postgresql/data
+    env_file:
+      - .env
+    ports:
+      - "5433:5432"
+
+volumes:
+  db_data:

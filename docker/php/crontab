@@ -1,0 +1,132 @@
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+POSTGRES_PASSWORD=postgres
+POSTGRES_USER=postgres
+POSTGRES_DB=subscription
+FROM_EMAIL=from@email.com
+
+
+*/10 * * * * /usr/local/bin/php /app/src/email_checker_cron.php --limit=250 >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/email_checker_queue_consumer.php >> /var/log/cron.log 2>&1
+
+
+*/10 * * * * /usr/local/bin/php /app/src/notification_cron.php --limit=250 >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
+* * * * * /usr/local/bin/php /app/src/notification_queue_consumer.php >> /var/log/cron.log 2>&1
